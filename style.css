@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background-color: #f4f6f9;
+    text-align: center;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.hidden {
+    display: none;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.logout {
+    background-color: red;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.book {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}

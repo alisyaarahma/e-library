@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Library Hukum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="loginPage" class="container">
+    <h2>Login E-Library</h2>
+    <input type="text" id="npm" placeholder="Masukkan NPM">
+    <button onclick="login()">Masuk</button>
+    <p id="error" style="color:red;"></p>
+</div>
+
+<!-- KATEGORI -->
+<div id="kategoriPage" class="container hidden">
+    <h2>Pilih Kategori</h2>
+    <button onclick="logout()">Logout</button>
+
+    <div class="card" onclick="showBooks('pidana')">
+        <h3>Hukum Pidana</h3>
+    </div>
+
+    <div class="card" onclick="showBooks('perdata')">
+        <h3>Hukum Perdata</h3>
+    </div>
+</div>
+
+<!-- BUKU -->
+<div id="bukuPage" class="container hidden">
+    <h2 id="judulKategori"></h2>
+    <button onclick="backToKategori()">⬅ Kembali</button>
+
+    <div id="bookList"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
