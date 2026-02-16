@@ -1,16 +1,41 @@
-const validNPM = ["2310631150056", "2410631010177", "2023003"];
+// =========================
+// DATA LOGIN
+// =========================
+const validNPM = [
+    "2310631150056",
+    "2410631010177",
+    "2023003"
+];
 
+// =========================
+// DATA BUKU PER KATEGORI
+// =========================
 const books = {
     pidana: [
-        { title: "Pengantar Hukum Islam", file: "books/pidana/Pengantar-Hukum-Islam-buku-ajar-rohidin-fh-uii.pdf.pdf" },
-        { title: "Asas-Asas Hukum Pidana", file: "books/pidana/pidana2.pdf" }
+        {
+            title: "Pengantar Hukum Islam",
+            file: "books/pidana/Pengantar-Hukum-Islam-buku-ajar-rohidin-fh-uii.pdf.pdf"
+        },
+        {
+            title: "Asas-Asas Hukum Pidana",
+            file: "books/pidana/pidana2.pdf"
+        }
     ],
     perdata: [
-        { title: "Pengantar Ilmu Hukum ", file: "books/perdata/pengantar-ilmu-hukum.pdf" },
-        { title: "Hukum Perjanjian", file: "books/perdata/perdata2.pdf" }
+        {
+            title: "Pengantar Ilmu Hukum",
+            file: "books/perdata/pengantar-ilmu-hukum.pdf"
+        },
+        {
+            title: "Hukum Perjanjian",
+            file: "books/perdata/perdata2.pdf"
+        }
     ]
 };
 
+// =========================
+// FUNCTION LOGIN
+// =========================
 function login() {
     let npm = document.getElementById("npm").value.trim();
 
@@ -23,12 +48,18 @@ function login() {
     }
 }
 
+// =========================
+// LOGOUT
+// =========================
 function logout() {
     document.getElementById("kategoriPage").classList.add("hidden");
     document.getElementById("bukuPage").classList.add("hidden");
     document.getElementById("loginPage").classList.remove("hidden");
 }
 
+// =========================
+// TAMPILKAN BUKU
+// =========================
 function showBooks(kategori) {
     document.getElementById("kategoriPage").classList.add("hidden");
     document.getElementById("bukuPage").classList.remove("hidden");
@@ -36,7 +67,7 @@ function showBooks(kategori) {
     let bookList = document.getElementById("bookList");
     bookList.innerHTML = "";
 
-    let judul = kategori === "pidana" 
+    let judul = kategori === "pidana"
         ? "Kumpulan Buku Hukum Pidana"
         : "Kumpulan Buku Hukum Perdata";
 
@@ -44,8 +75,9 @@ function showBooks(kategori) {
 
     if (books[kategori]) {
         books[kategori].forEach(function(book) {
+
             let div = document.createElement("div");
-            div.className = "book";
+            div.className = "book-card";
 
             div.innerHTML = `
                 <h3>${book.title}</h3>
@@ -59,6 +91,9 @@ function showBooks(kategori) {
     }
 }
 
+// =========================
+// KEMBALI KE KATEGORI
+// =========================
 function backToKategori() {
     document.getElementById("bukuPage").classList.add("hidden");
     document.getElementById("kategoriPage").classList.remove("hidden");
