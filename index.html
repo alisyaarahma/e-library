@@ -1,39 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>E-Library Hukum</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Library Hukum Premium</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- LOGIN -->
-<div id="loginPage" class="container">
-    <h2>Login E-Library</h2>
+<!-- ================= LOGIN PAGE ================= -->
+<div id="loginPage" class="center-box">
+    <h2>⚖ E-Library Hukum</h2>
+    <p>Masukkan NPM untuk mengakses koleksi</p>
     <input type="text" id="npm" placeholder="Masukkan NPM">
-    <button onclick="login()">Masuk</button>
-    <p id="error" style="color:red;"></p>
+    <button onclick="login()">Login</button>
+    <p id="error" class="error"></p>
 </div>
 
-<!-- KATEGORI -->
-<div id="kategoriPage" class="container hidden">
-    <h2>Pilih Kategori</h2>
-    <button onclick="logout()">Logout</button>
+<!-- ================= KATEGORI PAGE ================= -->
+<div id="kategoriPage" class="hidden">
+    <nav class="navbar">
+        <div class="logo">⚖ E-Library Hukum</div>
+        <button onclick="logout()">Logout</button>
+    </nav>
 
-    <div class="card" onclick="showBooks('pidana')">
-        <h3>Hukum Pidana</h3>
-    </div>
+    <div class="container">
+        <h2 class="title">Pilih Kategori</h2>
 
-    <div class="card" onclick="showBooks('perdata')">
-        <h3>Hukum Perdata</h3>
+        <div class="category-grid">
+            <div class="category-card" onclick="showBooks('pidana')">
+                <h3>Hukum Pidana</h3>
+                <p>Kumpulan buku hukum pidana</p>
+            </div>
+
+            <div class="category-card" onclick="showBooks('perdata')">
+                <h3>Hukum Perdata</h3>
+                <p>Kumpulan buku hukum perdata</p>
+            </div>
+        </div>
     </div>
 </div>
 
-<!-- BUKU -->
-<div id="bukuPage" class="container hidden">
-    <h2 id="judulKategori"></h2>
-    <button onclick="backToKategori()">⬅ Kembali</button>
+<!-- ================= BUKU PAGE ================= -->
+<div id="bukuPage" class="hidden">
+    <nav class="navbar">
+        <div class="logo">⚖ E-Library Hukum</div>
+        <button onclick="backToKategori()">Kembali</button>
+    </nav>
 
-    <div id="bookList"></div>
+    <div class="container">
+        <h2 id="judulKategori" class="title"></h2>
+        <div id="bookList" class="book-grid"></div>
+    </div>
 </div>
 
 <script src="script.js"></script>
