@@ -16,17 +16,20 @@ const books = {
 // VALIDASI NPM DENGAN RENTANG ANGKA
 // =========================
 function isValidNPM(npm) {
-    if (!/^\d+$/.test(npm)) return false; // harus angka semua
+    // harus angka 13 digit
+    if (!/^\d{13}$/.test(npm)) return false;
+
     const number = parseInt(npm, 10);
     const min = 2310631000000;
     const max = 2510631999999;
+
     return number >= min && number <= max;
 }
 
 // =========================
-// LOGIN DENGAN FIRESTORE
+// LOGIN TANPA DATABASE
 // =========================
-async function login() {
+function login() {
     let npm = document.getElementById("npm").value.trim();
 
     if (!isValidNPM(npm)) {
@@ -34,28 +37,10 @@ async function login() {
         return;
     }
 
-    try {
-        const usersRef = collection(window.db, "users");
-        const q = query(usersRef, where("npm", "==", npm));
-        const querySnapshot = await getDocs(q);
-
-        if (querySnapshot.empty) {
-            // Simpan NPM baru
-            await addDoc(usersRef, {
-                npm: npm,
-                loginTime: new Date().toISOString()
-            });
-        }
-
-        // Tampilkan halaman kategori
-        document.getElementById("loginPage").classList.add("hidden");
-        document.getElementById("kategoriPage").classList.remove("hidden");
-        document.getElementById("error").innerText = "";
-
-    } catch (err) {
-        console.error(err);
-        document.getElementById("error").innerText = "Terjadi kesalahan. Coba lagi!";
-    }
+    // Jika valid → tampil halaman kategori
+    document.getElementById("loginPage").classList.add("hidden");
+    document.getElementById("kategoriPage").classList.remove("hidden");
+    document.getElementById("error").innerText = "";
 }
 
 // =========================
