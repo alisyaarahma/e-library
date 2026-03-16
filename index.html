@@ -1,59 +1,117 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Library Hukum Premium</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perpustakaan Digital</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- ================= LOGIN PAGE ================= -->
+<!-- ================= LOGIN ================= -->
 <div id="loginPage" class="center-box">
-    <h2>⚖ E-Library Hukum</h2>
-    <p>Masukkan NPM untuk mengakses koleksi</p>
-    <input type="text" id="npm" placeholder="Masukkan NPM">
-    <button onclick="login()">Login</button>
-    <p id="error" class="error"></p>
+<h2>⚖️ Login Perpustakaan</h2>
+<p>Masukkan NPM (13 digit)</p>
+<input type="text" id="npm" placeholder="2300000000000">
+<button onclick="login()">Login</button>
+<p id="errorMsg" class="error"></p>
 </div>
 
-<!-- ================= KATEGORI PAGE ================= -->
+<!-- ================= KATEGORI ================= -->
 <div id="kategoriPage" class="hidden">
-    <nav class="navbar">
-        <div class="logo">⚖ E-Library Hukum</div>
-        <button onclick="logout()">Logout</button>
-    </nav>
 
-    <div class="container">
-        <h2 class="title">Pilih Kategori</h2>
+<nav class="navbar">
+<div class="logo">⚖️ Perpustakaan Digital</div>
 
-        <div class="category-grid">
-            <div class="category-card" onclick="showBooks('pidana')">
-                <h3>Hukum Pidana</h3>
-                <p>Kumpulan buku hukum pidana</p>
-            </div>
-
-            <div class="category-card" onclick="showBooks('perdata')">
-                <h3>Hukum Perdata</h3>
-                <p>Kumpulan buku hukum perdata</p>
-            </div>
-        </div>
-    </div>
+<div class="nav-right">
+<span class="user">NPM : <span class="userNpm"></span></span>
+<button onclick="logout()">Logout</button>
 </div>
 
-<!-- ================= BUKU PAGE ================= -->
+</nav>
+
+<div class="container">
+
+<h2 class="title">Pilih Kategori Buku</h2>
+
+<p class="category-desc">
+Perpustakaan Digital Fakultas Hukum menyediakan berbagai koleksi buku
+yang dapat membantu mahasiswa dalam mempelajari berbagai cabang ilmu hukum.
+Silakan pilih kategori buku yang ingin dipelajari untuk melihat daftar buku
+yang tersedia di dalam perpustakaan digital ini.
+</p>
+
+<div class="category-grid">
+
+<div class="category-card"
+onclick="showBooks('perdata')"
+style="background-image:url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f');">
+
+<h3>Hukum Perdata</h3>
+
+</div>
+
+<div class="category-card"
+onclick="showBooks('pidana')"
+style="background-image:url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85');">
+
+<h3>Hukum Pidana</h3>
+
+</div>
+
+<div class="category-card"
+onclick="showBooks('tata negara')"
+style="background-image:url(https://media.istockphoto.com/id/1090431444/photo/judge-gavel-and-scale-in-court-legal-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=-t1Mx0QyMVUWUR8YhATKfE59dVMRWc9-Z3_tDdSRcDw=);">
+
+<h3>Hukum Tata Negara</h3>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- ================= DAFTAR BUKU ================= -->
 <div id="bukuPage" class="hidden">
-    <nav class="navbar">
-        <div class="logo">⚖ E-Library Hukum</div>
-        <button onclick="backToKategori()">Kembali</button>
-    </nav>
 
-    <div class="container">
-        <h2 id="judulKategori" class="title"></h2>
-        <div id="bookList" class="book-grid"></div>
-    </div>
+<nav class="navbar">
+<div class="logo">⚖️ Perpustakaan Digital</div>
+
+<div class="nav-right">
+<span class="user">NPM : <span class="userNpm"></span></span>
+<button onclick="logout()">Logout</button>
 </div>
+
+</nav>
+
+<div class="container">
+
+<h2 class="title">Daftar Buku</h2>
+
+<input
+type="text"
+id="searchBook"
+class="search-box"
+placeholder="Cari buku..."
+onkeyup="searchBook()"
+>
+
+<div class="book-grid" id="bookList">
+</div>
+
+</div>
+
+<button class="back-button-fixed" onclick="kembaliKategori()">Kembali</button>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Perpustakaan Digital Fakultas Hukum</p>
+<p>Developed by Seven Minds</p>
+</footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
