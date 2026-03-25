@@ -305,3 +305,31 @@ background:rgba(0,0,0,0.6);
 color:#ccc;
 font-size:14px;
 }
+
+/* ================= FIX BORDER MOBILE ================= */
+@media (max-width: 768px) {
+
+    .center-box {
+        border: 1px solid #D4AF37;
+    }
+
+    .category-card {
+        border: 1px solid #D4AF37;
+    }
+
+    .book-card {
+        border: 1px solid #D4AF37;
+    }
+
+    .back-button-fixed {
+        border: 1px solid #D4AF37;
+    }
+
+    /* Optional: kurangi shadow biar lebih ringan */
+    .category-card,
+    .book-card {
+        box-shadow:
+            0 6px 0 #8c6d1f,
+            0 10px 20px rgba(0,0,0,0.5);
+    }
+}
