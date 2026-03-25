@@ -184,6 +184,7 @@ body {
 .book-card h3 {
     margin-bottom: 10px;
     z-index: 2;
+    font-size: 14px;
 }
 
 .book-card::before {
@@ -252,6 +253,10 @@ body {
         grid-template-columns: 1fr; /* 1 kolom di HP */
     }
 
+    .book-card h3 {
+        font-size: 12px;
+    }
+
     .category-grid {
         grid-template-columns: 1fr; 
     }
@@ -270,7 +275,7 @@ body {
 text-align:center;
 max-width:700px;
 margin:0 auto 50px auto;
-font-size:15px;
+font-size:14px;
 line-height:1.6;
 color:#e0e0e0;
 }
@@ -304,47 +309,4 @@ margin-top:80px;
 background:rgba(0,0,0,0.6);
 color:#ccc;
 font-size:14px;
-}
-
-@media (max-width: 768px) {
-
-    /* CARD BUKU */
-    .book-card {
-        border: 1px solid #D4AF37 !important;
-        height: auto; /* biar fleksibel */
-        padding: 12px;
-
-        box-shadow:
-            0 4px 0 #8c6d1f,
-            0 8px 15px rgba(0,0,0,0.4) !important;
-    }
-
-    /* CATEGORY CARD */
-    .category-card {
-        border: 1px solid #D4AF37 !important;
-
-        box-shadow:
-            0 5px 0 #8c6d1f,
-            0 10px 20px rgba(0,0,0,0.4) !important;
-    }
-
-    /* LOGIN BOX */
-    .center-box {
-        border: 1px solid #D4AF37 !important;
-        padding: 25px;
-    }
-
-    /* TEXT BIAR GA KEGEDEAN */
-    .book-card h3 {
-        font-size: 14px;
-    }
-
-    .category-card h3 {
-        font-size: 16px;
-    }
-
-    /* GRID JANGAN TERLALU MEPET */
-    .book-grid {
-        gap: 20px;
-    }
 }
