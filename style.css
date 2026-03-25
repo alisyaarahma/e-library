@@ -333,3 +333,47 @@ font-size:14px;
             0 10px 20px rgba(0,0,0,0.5);
     }
 }
+
+@media (max-width: 768px) {
+
+    /* CARD BUKU */
+    .book-card {
+        border: 1px solid #D4AF37 !important;
+        height: auto; /* biar fleksibel */
+        padding: 12px;
+
+        box-shadow:
+            0 4px 0 #8c6d1f,
+            0 8px 15px rgba(0,0,0,0.4) !important;
+    }
+
+    /* CATEGORY CARD */
+    .category-card {
+        border: 1px solid #D4AF37 !important;
+
+        box-shadow:
+            0 5px 0 #8c6d1f,
+            0 10px 20px rgba(0,0,0,0.4) !important;
+    }
+
+    /* LOGIN BOX */
+    .center-box {
+        border: 1px solid #D4AF37 !important;
+        padding: 25px;
+    }
+
+    /* TEXT BIAR GA KEGEDEAN */
+    .book-card h3 {
+        font-size: 14px;
+    }
+
+    .category-card h3 {
+        font-size: 16px;
+    }
+
+    /* GRID JANGAN TERLALU MEPET */
+    .book-grid {
+        gap: 20px;
+    }
+}
+
