@@ -55,15 +55,15 @@ function showBooks(kategori) {
         books = [
             {
                 title: "Hukum Perikatan",
-                file: "books/perdata/[Nanda Amalia] Hukum Perikatan.pdf"
+                file: "https://drive.google.com/file/d/16hV5N3qqFJFxg0iLC4_9G9uqrWgCZzTe/preview"
             },
             {
                 title: "Hukum Waris",
-                file: "books/perdata/4. BUKU HUKUM WARIS FIX.pdf"
+                file: "https://drive.google.com/file/d/1WcLDBLEPerXNyZUgjNA6bljjMRs2OQoF/preview"
             },
             {
                 title: "Pengantar Hukum Acara Perdata",
-                file: "books/perdata/28. Pengantar Hukum Acara Perdata Modul by Laila M. Rasyid, SH, M.Hum.  Herinawati, SH, M.Hum. (z-lib.org).pdf"
+                file: "https://drive.google.com/file/d/1YN314rPHVWb4vCEP-ZdmRvHEB6NFKtRq/preview"
             },
             {
                 title: "Buku Belajar Hukum Perdata",
