@@ -67,71 +67,71 @@ function showBooks(kategori) {
             },
             {
                 title: "Buku Belajar Hukum Perdata",
-                file: "books/perdata/9786023590513.pdf"
+                file: "https://drive.google.com/file/d/1_muxUh5QB7UrrbU1hAifLOHTAXdFW9Ms/preview"
             },
             {
                 title: "Hukum Perkawinan",
-                file: "books/perdata/Buku Ajar Hukum Perkawinan by Nanda Amalia (z-lib.org).pdf"
+                file: "https://drive.google.com/file/d/1QwFk-raf0Ye3y8JXe6KvgFiFY5mv2j4U/preview"
             },
             {
                 title: "Hukum Perdata Hukum Orang dan Keluarga",
-                file: "books/perdata/BUKU HUKUM PERDATA HUKUM ORANG DAN KELUARGA _ RESTI HARTYO.pdf"
+                file: "https://drive.google.com/file/d/1DZpArIBI4f51vDZYEWM1JMuAEw0se_gw/preview"
             },
             {
                 title: "Hukum Perdata (Martha Eri Safira)",
-                file: "books/perdata/BUKU HUKUM PERDATA(1).pdf"
+                file: "https://drive.google.com/file/d/1GdaCRyW7pfEwGx5vOjU3fds7_ePRCQ-I/preview"
             },
             {
                 title: "Hukum Perdata dan Asas-Asas Perkembangannya",
-                file: "books/perdata/BUKU HUKUM PERDATA.pdf"
+                file: "https://drive.google.com/file/d/1o90RT4UTBW5W6GulMLxHf255r1O9OwjQ/preview"
             },
             {
                 title: "Buku Ajar Hukum Acara Perdata",
-                file: "books/perdata/BukuAjarHukumAcaraPerdata.pdf"
+                file: "https://drive.google.com/file/d/1p0I4E1d-oMmk7XypWSsenlJr-SO7t0F7/preview"
             },
             {
                 title: "Hukum Harta Kekayaan",
-                file: "books/perdata/E-BOOK_BRAVO_HUKUMHARTAKEKAYAAN1.pdf"
+                file: "https://drive.google.com/file/d/1IE4bRVWHgfrjX8kiREMoRc4OkOnBorTb/preview"
             },
             {
                 title: "Praktik Peradilan Perdata",
-                file: "books/perdata/Ebook_Bravo_PRAKTIKPERADILANPERDATA1.pdf"
+                file: "https://drive.google.com/file/d/1nxW1EKIe_mp9gGkKsFQCaa-teTiUEX_Q/preview"
             },
             {
                 title: "Buku Ajar Hukum Acara Perdata Dr. Ma’ruf  Akib, S.H., M.H., M.Kn., M.Kes., M.Hum",
-                file: "books/perdata/EBOOK_BUKUAJARHUKUMACARAPERDATA1.pdf"
+                file: "https://drive.google.com/file/d/1g8FJHfncH2Jn6V6M8jlNXn3_JMOsavLw/preview"
             },  
             {
                 title: "Hukum Perdata dalam Sebuah Perjanjian",
-                file: "books/perdata/E-Book_GPI_BukuAjarHukumPerdatadalamSebuahPerjanjian11.pdf"
+                file: "https://drive.google.com/file/d/11vuQB_29ssqkeF8Hn1mSjbN-TAssQYwu/preview"
             },  
             {
                 title: "Kapita Selekta Hukum Perdata",
-                file: "books/perdata/E-BOOK_KAPITASELEKTAHUKUMPERDATA_removed.pdf"
+                file: "https://drive.google.com/file/d/1xb-o4ZSPAqD7vUO3c7AwIiKDXSW3O_R0/preview"
             },
             {
                 title: "Hukum Perdata Indonesia",
-                file: "books/perdata/Hukum Perdata Indonesia Full.pdf"
+                file: "https://drive.google.com/file/d/1RfTFmlaUTnH5j8Gk2J_n8WMuYqQcRQ_c/preview"
             },
             {
                 title: "Pengantar Hukum Perdata di Indonesia",
-                file: "books/perdata/Pengantar hukum perdata di Indonesia.pdf"
+                file: "https://drive.google.com/file/d/1N95FPHlVzGUqLf49nNJ1Ldb_x1RTyNJY/preview"
             },
             {
                 title: "Perbandingan Hukum Perdata",
-                file: "books/perdata/Perbandingan Hukum Perdata.pdf"
+                file: "https://drive.google.com/file/d/1MJSHVyu34TGekntVJxxg97vaUH6Ygev0/preview"
             },
             {
                 title: "Hukum Perdata",
-                file: "books/perdata/Perdata.pdf"
+                file: "https://drive.google.com/file/d/18HFEvkUWS7vsG6vddKkba5ofYokR8jHc/preview"
             },
             {
                 title: "Buku Dasar-Dasar Hukum Perdata Internasional",
-                file: "books/perdata/Buku Dasar Dasar Hukum Perdata Internasional_Ari Purwadi.pdf"
+                file: "https://drive.google.com/file/d/1UxahPY_qisy5uMSSOGjv4XUw3h1aNtDu/preview"
             },
             {
                 title: "Hukum Perdata (Dr. Muhamad Sadi Is, S.H.I., M.H., Dkk)",
-                file: "books/perdata/eBook Buku Hukum Perdata.pdf"
+                file: "https://drive.google.com/file/d/1ck-sRL1Go7HamWT7MpgPZTwQD3mg4nv-/preview"
             } 
         ];
     }
@@ -140,79 +140,83 @@ function showBooks(kategori) {
         books = [
             {
                 title: "Buku Ajar Hukum Pidana",
-                file: "books/pidana/BUKU AJAR HUKUM PIDANA (1).pdf"
+                file: "https://drive.google.com/file/d/1_Afc-OvuIEYowle9KZp8vqh3ogBbbHUt/preview"
             },
             {
                 title: "Pengantar Hukum Pidana",
-                file: "books/pidana/buku pengantar hukum pidana-revcompressed.pdf"
+                file: "https://drive.google.com/file/d/11fLOMeGleJCOUCeQx3yOOqsS5HCQlm9i/preview"
             },
             {
                 title: "Buku Hukum Pidana (Dr. H. Imron Rosyadi, S.H.,M.H)",
-                file: "books/pidana/buku_Hukum Pidana.pdf"
+                file: "https://drive.google.com/file/d/1PE6O-82_5SYT4cKPF-Wb86LGzyjrv49n/preview"
             },
             {
                 title: "Hukum Pidana",
-                file: "books/pidana/BUKUHUKUMPIDANA.pdf"
+                file: "https://drive.google.com/file/d/1ufsYIaKIaXI69S9Y_HfnYOG_JUUM2UAs/preview"
             },
             {
                 title: "Dasar-Dasar Hukum Pidana di Indonesia",
-                file: "books/pidana/Dasar-Dasar Hukum Pidana di Indonesia by Dr. Fitri Wahyuni., S.H., M.H..pdf"
+                file: "https://drive.google.com/file/d/1zpGy8L46KlYI4aaJv5FLvLEI-AeD_W9Z/preview"
             },
             {
                 title: "Hukum Pidana Khusus",
-                file: "books/pidana/DR. HAMSIR.pdf"
+                file: "https://drive.google.com/file/d/1orrYWVVRHFYmS8vgqTQgCgwpoHsPl1D9/preview"
             },
             {
                 title: "Buku Ajar Hukum Siber Perspektif Pidana",
-                file: "books/pidana/Ebook_BUKUAJARHUKUMSIBERPERSPEKTIFPIDANA1.pdf"
+                file: "https://drive.google.com/file/d/1fRGZsGlIkxhJvqzaBoyJJe1_QC5PixFF/preview"
             },
             {
                 title: "Hukum Pidana Korupsi",
-                file: "books/pidana/Ebook_Hukum Pidana Korupsi.pdf"
+                file: "https://drive.google.com/file/d/1mlxnFoSuFWogB8l5ynd4oOrOnjuoCpQ7/preview"
             },
             {
                 title: "Buku Ajar Hukum dan Kriminologi",
-                file: "books/pidana/Hukum dan Kriminologi Buku Ajar (Emilia Susanti, S.H., M.H.  Eko Rahadjo, S.H. etc.) (z-lib.org).pdf"
+                file: "https://drive.google.com/file/d/1ZXjpsuso-CXjfK7BnNM6Nd0ImeafyGS7/preview"
             },
             {
                 title: "Hukum Pidana di Era Digital",
-                file: "books/pidana/Hukum pidana .pdf"
+                file: "https://drive.google.com/file/d/1Wmt1iiLwQEJQNXf-BkniT-mEbilZDSSb/preview"
             },
             {
                 title: "Hukum Pidana Dasar-Dasar Hukum Pidana Berdasarkan KUHP dan RUU KUHP",
-                file: "books/pidana/Hukum Pidana Dasar-Dasar Hukum Pidana Berdasarkan KUHP dan RUU KUHP by Sudaryono  Natangsa Surbakti.pdf"
+                file: "https://drive.google.com/file/d/1-4PzuIGZSyUwnIGj0YWQxIl7t1bpUBKh/preview"
             },
             {
                 title: "Kajian Hukum Pidana Indonesia",
-                file: "books/pidana/KAJIAN HUKUM PIDANA INDONESIA.pdf"
+                file: "https://drive.google.com/file/d/1eju8Lhao35KymQu9a88FESv_CAbRnNRY/preview"
             },
             {
                 title: "Hukum Pidana (Dr. Tofik Yanuar Chandra, S.H., M.H.)",
-                file: "books/pidana/Pidana(1).pdf"
+                file: "https://drive.google.com/file/d/1Mt7e0nSuemHuAmJHQWlAjsWPX-py9Fjh/preview"
             },
             {
                 title: "Pengantar Hukum Pidana (Transisi Hukum Pidana di Indonesia)",
-                file: "books/pidana/Pidana.pdf"
+                file: "https://drive.google.com/file/d/1p1SWugM3zRif2VKakxBSpEtmMF3YiBVW/preview"
             },
             {
                 title: "Hukum Acara Pidana dan Rencana Kitab Undang-Undang Hukum Pidana Indonesia",
-                file: "books/pidana/ResearchGate_HUKUMACARAPIDANADANRENCANAKITABUNDANG-UNDANGHUKUMPIDANAINDONESIA.pdf"
+                file: "https://drive.google.com/file/d/1YvcTwdlnHUTwlUe9dljOeu1SHVzo2srA/preview"
             },
             {
                 title: "Suatu Pengantar Kriminologi",
-                file: "books/pidana/SUATUPENGANTARKRIMINOLOGI.pdf"
+                file: "https://drive.google.com/file/d/1q_GAXdEhpexQk_Z1pPWQGz-Ucd9FONpS/preview"
             },
             {
                 title: "Penyidikan Pidana di Indonsia",
-                file: "books/pidana/UploadResearchgate_EBOOK_DPB_PENYIDIKANPIDANADIINDONESIA.pdf"
+                file: "https://drive.google.com/file/d/1TXwjJS1sqCwWCaayFo4jyCbrkSbL2lJM/preview"
             },
             {
                 title: "Hukum Pidana Islam",
-                file: "books/pidana/Hukum-Pidana-Islam.pdf"
+                file: "https://drive.google.com/file/d/1VxPRr8yaXyLbWQg4ZTD9jmxDFC9HHC-O/preview"
             },
             {
-                title: "Hukum Pidana Dasar-Dasar Hukum Pidana Berdasarkan KUHP dan RUU KUHP",
-                file: "books/pidana/Hukum Pidana Dasar-Dasar Hukum Pidana Berdasarkan KUHP dan RUU KUHP by Sudaryono  Natangsa Surbakti (z-lib.org).pdf"
+                title: "Buku Ajar Kriminologi",
+                file: "https://drive.google.com/file/d/1U10X34FlsF5_xpolJAjyX0ovXd3VvxLw/preview"
+            },
+            {
+                title: "Hukum Acara Pidana dan Pidana Cyber",
+                file: "https://drive.google.com/file/d/1sov0vegibJ9ar0kEq9WHsdJ4nA5QCNYq/preview"
             }
         ];
     }
@@ -221,83 +225,83 @@ function showBooks(kategori) {
         books = [
              {
                 title: "Hukum Tata Negara dan Pengawasan terhadap Kekuasaan Eksekutif",
-                file: "books/tata negara/(+ISBN) K 175 - Hukum Tata Negara.pdf"
+                file: "https://drive.google.com/file/d/1dW-IV1rUKfg9mm76RFYm3HzXkAvFXCql/preview"
             },
             {
                 title: "Hukum Tata Negara Indonesia",
-                file: "books/tata negara/4. Buku Hukum Tata Negara (Editor).pdf"
+                file: "https://drive.google.com/file/d/1UmAvA8J1p_QbXyR7u5gpz32Ey2B1NMUs/preview"
             },
             {
                 title: "Hukum Hak Asasi Manusia",
-                file: "books/tata negara/13. Hukum Hak Asasi Manusia by Rhona K.M. Smith, dkk. (z-lib.org).pdf"
+                file: "https://drive.google.com/file/d/1jxizzAZe_BSBcYdgU9IC210Ezk8wmf1y/preview"
             },
             {
                 title: "Dasar-Dasar Teori Hukum Tata Negara (Perspektif dan Praktik)",
-                file: "books/tata negara/a65bc816-b8af-430f-bd4d-a449d4f2e973Ebook_Dasar-Dasar+Teori+Hukum+Tata+Negara+(Perspektif+dan+Praktik)_organized.pdf"
+                file: "https://drive.google.com/file/d/1cSXyhVFU3HvNrNr-JfIQeqTUcLZiDtH8/preview"
             },
             {
                 title: "Hukum Tata Negara Indonesia (Drs. Nuruddin, M.H.)",
-                file: "books/tata negara/BUKU HUKUM TATA NEGARA.pdf"
+                file: "https://drive.google.com/file/d/19helVlOZN7HwxJCxL0Kw899uvcSeDvNY/preview"
             },
             {
                 title: "Filsafat dan Praktik Hukum Acara Tata Usaha Negara",
-                file: "books/tata negara/Ebook_FilsafatdanPraktikHukumAcaraTataUsahaNegara_organized.pdf"
+                file: "https://drive.google.com/file/d/1dsm3i0KvwaAPYkVKL5tY8k2XNuMbqqT2/preview"
             },
             {
                 title: "Hukum Tata Negara (Ibnu Sam Widodo, dkk)",
-                file: "books/tata negara/Ebook_HukumTataNegara.pdf"
+                file: "https://drive.google.com/file/d/1gvXMoXHLn4C5LSOCjLcKvgSEpL9UIbSC/preview"
             },
             {
                 title: "Hukum Pemerintahan Daerah",
-                file: "books/tata negara/Hukum Pemerintahan Daerah.pdf"
+                file: "https://drive.google.com/file/d/1QlBR69zO1UebBWlu-9oF1RKHdZw9zoaz/preview"
             },
             {
                 title: "Pengantar Hukum Tata Negara dan Dinamika Ketatanegaraan Indonesia",
-                file: "books/tata negara/Hukum Tata Negara.pdf"
+                file: "https://drive.google.com/file/d/1YgKAOOeSX-MJD-bdcWBh9ndxoRIX_BZl/preview"
             },
             {
                 title: "Hukum Tata Negara Indonesia (Imam Mahdi, S.H., M.H.)",
-                file: "books/tata negara/Hukum tata negara_compressed.pdf"
+                file: "https://drive.google.com/file/d/1LDjmOVb9wULHr2V69abHaXBSSv_PVixB/preview"
             },
             {
                 title: "Hukum Tata Negara (Agus Riewanto, dkk)",
-                file: "books/tata negara/Hukum-Tata-Negara.pdf"
+                file: "https://drive.google.com/file/d/1om-_N-wolzkzUv8iVcBWWWhZ1OOZ2oxL/preview"
             },
             {
                 title: "Hukum Tata Negara Indonesia (Teori dan Penerapannya)",
-                file: "books/tata negara/Hukum-Tata-Negara-Indonesia-Teori-dan-Penerapannya_250422_155713.pdf"
+                file: "https://drive.google.com/file/d/17Oovu1XWLOyTi0sjVO-RB4eGRw4Ey3_a/preview"
             },
             {
                 title: "Konstitusi (Teori, Hukum, dan Perkembangannya)",
-                file: "books/tata negara/Konstitusi Teori, Hukum dan Perkembangannya.pdf"
+                file: "https://drive.google.com/file/d/1MO9ttJh1RPhn0uHfgaXpspNy5nwt3v78/preview"
             },
             {
                 title: "Pengantar Hukum Tata Negara Indonesia",
-                file: "books/tata negara/Pengantar Hukum Tata Negara Indonesia.pdf"
+                file: "https://drive.google.com/file/d/1BX0-HUDRzQZ-ACBE3i6Pps50JjhPqHm1/preview"
             },
             {
                 title: "Pengantar Ilmu Hukum Tata Negara Jilid I",
-                file: "books/tata negara/pengantar_ilmu_hukum_tata_negara.pdf.pdf"
+                file: "https://drive.google.com/file/d/1ILW2Lir40mhNLDGtOhWd09QhRICqSt1e/preview"
             },
             {
                 title: "Pengantar Ilmu Hukum Tata Negara Jilid II",
-                file: "books/tata negara/Pengantar_Ilmu_Hukum_Tata_Negara_Jilid2.pdf .pdf"
+                file: "https://drive.google.com/file/d/19IgGfTN-nkaUbbEB2-OmNHDJbDUaxFUD/preview"
             },
             {
                 title: "Pengantar Hukum Tata Negara (Arman Koedoeboen, S.H., M.H.)",
-                file: "books/tata negara/UploadResearchgate_EBOOK_DPB_PENGANTARHUKUMTATANEGARA.pdf"
+                file: "https://drive.google.com/file/d/1zc9Id9ULP0GLWstk9R1gBmL5AQ7Yxd1N/preview"
             },
             {
                 title: "Rekontruksi Hukum Tata Negara",
-                file: "books/tata negara/KF Konstruksi HTN.pdf"
+                file: "https://drive.google.com/file/d/1CljRY4T7-kfDeDCgPJJ7Ya0xXp1jBtN7/preview"
             },
             {
                 title: "Hukum Konstitusi di Indonesia",
-                file: "books/tata negara/Binder4-dikompresi.pdf"
+                file: "https://drive.google.com/file/d/1ZCpI0WAZXUWCQRVzqGl5j9N46VYrWmWA/preview"
             },
             {
                 title: "Hukum Tata Negara (Vernando, S.Sos., S.H., M.Kn., dkk)",
-                file: "books/tata negara/eBook Buku Hukum Tata Negara.pdf"
+                file: "https://drive.google.com/file/d/1jYOrLaKMEerunh6xYKRTU3XcUCR-MtQy/preview"
             }
         ];
     }
